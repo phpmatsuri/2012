@@ -4,26 +4,26 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title></title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width">
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<style>
-	body {
-	  padding-top: 60px;
-	  padding-bottom: 40px;
-	}
-	</style>
-	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+    body {
+      padding-top: 60px;
+      padding-bottom: 40px;
+    }
+    </style>
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
-	<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+    <script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
 </head>
 <body>
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -36,7 +36,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Project name</a>
+          <a class="brand" href="#"><img src="img/header_logo.png" /></a>
           <div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
@@ -51,11 +51,35 @@
     <div class="container">
 
       <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
+        <div id="pm-hero-unit" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="item active" style="background-image:url(img/phpmatsuri2011_4.jpg);">
+                  </div>
+                  <div class="item" style="background-image:url(img/phpmatsuri2011all.jpg);">
+                    <!--
+                    <div class="carousel-caption">
+                      <h4>First Thumbnail label</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                    -->
+                  </div>
+                  <div class="item" style="background-image:url(img/phpmatsuri2011_1.jpg);">
+                  </div>
+                  <div class="item" style="background-image:url(img/phpmatsuri2011_2.jpg);">
+                  </div>
+                  <div class="item" style="background-image:url(img/phpmatsuri2011_3.jpg);">
+                  </div>
+                </div>
+                <a class="left carousel-control" href="#pm-hero-unit" data-slide="prev">&lsaquo;</a>
+                <a class="right carousel-control" href="#pm-hero-unit" data-slide="next">&rsaquo;</a>
+        </div>
+    <!--
+      <div id="pm-hero-unit">
         <h1>Hello, world!</h1>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
       </div>
+    -->
 
       <!-- Example row of columns -->
       <div class="row">
@@ -83,17 +107,17 @@
       </footer>
 
     </div> <!-- /container -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')</script>
 
 <script src="js/libs/bootstrap/bootstrap.min.js"></script>
 
 <script src="js/script.js"></script>
 <script>
-	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-	s.parentNode.insertBefore(g,s)}(document,'script'));
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
 
 </body>

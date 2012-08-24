@@ -1,18 +1,36 @@
-
-
-/* ===== Primary Styles ========================================================
+/* ===== Twitter Bootstrap Mod ==============================================
    Author:
    ========================================================================== */
+.navbar-inner {
+    background-color: #FFFFFF;
+    background-image: none; /*-moz-linear-gradient(center top , #FFFFFF, #F5F5F5);*/
+    min-height: 60px;
+ }
 
+.navbar .nav > li > a {
+    padding: 19px 15px 21px;
+ }
 
+.navbar .nav > li > a:hover {
+    color: #666699; /** PHP Manualからカラー取得 **/
+ }
 
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+    background-color: #DDDDDD;
+    color: #333333;
+ }
 
+/* ===== Extra ==============================================================
+   Author:
+   ========================================================================== */
+#pm-hero-unit {
+    padding: 0px 60px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+ }
 
-
-
-
-
-
-
-
-
+#pm-hero-unit .carousel-inner > .item {
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+ }
