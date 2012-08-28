@@ -1,6 +1,12 @@
 /* ===== Twitter Bootstrap Mod ==============================================
    Author:
    */
+.navbar .nav > li > a {
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: none;
+ }
+
 .navbar-inner {
     background-color: #FFFFFF;
     background-image: none; /*-moz-linear-gradient(center top , #FFFFFF, #F5F5F5);*/
@@ -24,7 +30,7 @@
    Author:
    */
 #pm-hero-unit {
-    padding: 0px 60px;
+    padding: 0px 0px;
     padding-top: 20px;
     margin-bottom: 30px;
 }
