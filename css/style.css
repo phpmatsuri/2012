@@ -41,11 +41,15 @@
     background-size: cover;
 }
 
+#pm-map-index {
+    width: 100%;
+ }
+
 div.pm-faq {
     border: 2px solid #CCCCCC;
     border-radius: 15px;
-    padding: 15px;
-    margin: 12px auto;
+    padding: 20px;
+    margin: 20px 10px;
  }
 
 .pm-faq h3{
@@ -56,17 +60,26 @@ div.pm-faq {
     #pm-hero-unit .carousel-inner > .item {
         height: 400px;
     }
+    #pm-map-index {
+        height: 300px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
     #pm-hero-unit .carousel-inner > .item {
         height: 300px;
     }
+    #pm-map-index {
+        height: 200px;
+    }
 }
 
 @media (max-width: 767px) {
     #pm-hero-unit .carousel-inner > .item {
         height: 250px;
+    }
+    #pm-map-index {
+        height: 400px;
     }
 }
 
