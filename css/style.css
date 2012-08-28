@@ -41,6 +41,17 @@
     background-size: cover;
 }
 
+div.pm-faq {
+    border: 2px solid #CCCCCC;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 12px auto;
+ }
+
+.pm-faq h3{
+    margin-bottom: 5px;
+ }
+
 @media (min-width: 980px) {
     #pm-hero-unit .carousel-inner > .item {
         height: 400px;
