@@ -45,14 +45,18 @@
     width: 100%;
  }
 
-div.pm-faq {
+.sponsor {
+    margin-bottom: 10px;
+ }
+
+div.faq {
     border: 2px solid #CCCCCC;
     border-radius: 15px;
     padding: 20px;
     margin: 20px 10px;
  }
 
-.pm-faq h3{
+.faq h3{
     margin-bottom: 5px;
  }
 
