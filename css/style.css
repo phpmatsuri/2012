@@ -45,6 +45,14 @@
     width: 100%;
  }
 
+#pm-map-access {
+    width: 100%;
+ }
+
+.speaker {
+    margin-bottom: 20px;
+ }
+
 .sponsor {
     margin-bottom: 10px;
  }
@@ -67,6 +75,9 @@ div.faq {
     #pm-map-index {
         height: 300px;
     }
+    #pm-map-access {
+        height: 400px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -76,6 +87,9 @@ div.faq {
     #pm-map-index {
         height: 200px;
     }
+    #pm-map-access {
+        height: 300px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -83,6 +97,9 @@ div.faq {
         height: 250px;
     }
     #pm-map-index {
+        height: 400px;
+    }
+    #pm-map-access {
         height: 400px;
     }
 }
