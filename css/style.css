@@ -5,7 +5,7 @@
     font-size: 14px;
     font-weight: bold;
     text-shadow: none;
- }
+}
 
 .navbar-inner {
     background-color: #FFFFFF;
@@ -41,36 +41,47 @@
     background-size: cover;
 }
 
+#ticket-index {
+    margin-top: 20px;
+    border: 4px solid #DDDDDD;
+    border-radius: 15px;
+    padding: 15px;
+    height: 350px;
+}
+
 #pm-map-index {
     width: 100%;
- }
+}
 
 #pm-map-access {
     width: 100%;
- }
+}
 
 .speaker {
     margin-bottom: 20px;
- }
+}
 
 .sponsor {
     margin-bottom: 10px;
- }
+}
 
 div.faq {
     border: 2px solid #CCCCCC;
     border-radius: 15px;
     padding: 20px;
     margin: 20px 10px;
- }
+}
 
 .faq h3{
     margin-bottom: 5px;
- }
+}
 
 @media (min-width: 980px) {
     #pm-hero-unit .carousel-inner > .item {
         height: 400px;
+    }
+    #ticket-index {
+        height: 350px;
     }
     #pm-map-index {
         height: 300px;
@@ -84,6 +95,9 @@ div.faq {
     #pm-hero-unit .carousel-inner > .item {
         height: 300px;
     }
+    #ticket-index {
+        height: 250px;
+    }
     #pm-map-index {
         height: 200px;
     }
@@ -96,6 +110,9 @@ div.faq {
     #pm-hero-unit .carousel-inner > .item {
         height: 250px;
     }
+    #ticket-index {
+        height: 200px;
+    }
     #pm-map-index {
         height: 400px;
     }
@@ -107,5 +124,8 @@ div.faq {
 @media (max-width: 480px) {
     #pm-hero-unit .carousel-inner > .item {
         height: 180px;
+    }
+    #ticket-index {
+        height: auto;
     }
 }
