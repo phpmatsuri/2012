@@ -1,6 +1,12 @@
 /* ===== Twitter Bootstrap Mod ==============================================
    Author:
    */
+h2 > small {
+    margin-left: 4px;
+    font-weight: bold;
+    font-size: 0.6em;
+ }
+
 .navbar .nav > li > a {
     font-size: 14px;
     font-weight: bold;
@@ -29,6 +35,14 @@
 /* ===== Extra ==============================================================
    Author:
    */
+/*
+#main-container {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+ }
+*/
+
 #pm-hero-unit {
     padding: 0px 0px;
     padding-top: 20px;
@@ -43,7 +57,7 @@
 
 #ticket-index {
     margin-top: 20px;
-    border: 4px solid #DDDDDD;
+    border: 8px solid #858BBA;
     border-radius: 15px;
     padding: 15px;
     height: 350px;
@@ -96,7 +110,7 @@ div.faq {
         height: 300px;
     }
     #ticket-index {
-        height: 250px;
+        height: auto;
     }
     #pm-map-index {
         height: 200px;
@@ -111,7 +125,7 @@ div.faq {
         height: 250px;
     }
     #ticket-index {
-        height: 200px;
+        height: auto;
     }
     #pm-map-index {
         height: 400px;
