@@ -35,13 +35,24 @@ h2 > small {
 /* ===== Extra ==============================================================
    Author:
    */
-/*
-#main-container {
-    background-image: url(../img/background.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
+#pm-post {
+    padding-top: 15px;
  }
-*/
+
+#pm-post h1 {
+    margin-bottom: 20px;
+ }
+
+#pm-post h2 {
+    margin: 10px;
+    margin-top: 20px;
+ }
+
+#pm-post p{
+    margin: auto 15px;
+    font-size: 1.2em;
+    line-height: 160%;
+ }
 
 #pm-hero-unit {
     padding: 0px 0px;
@@ -76,6 +87,7 @@ h2 > small {
 }
 
 .sponsor {
+    background-color: white;
     margin-bottom: 10px;
 }
 

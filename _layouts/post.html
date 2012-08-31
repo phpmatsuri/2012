@@ -12,20 +12,19 @@
         <meta name="author" content="" />
 
         <meta name="viewport" content="width=device-width" />
-        <script>
-            document.write('<base href="/phpmatsuri2012.github.com/">');
-        </script>
-
+        <base href="/phpmatsuri2012.github.com/">
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <style>
             body {
             padding-top: 60px;
             padding-bottom: 40px;
+            background-image: url(img/background.png);
+            background-repeat: no-repeat;
+            background-position: right bottom;
             }
         </style>
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
         <link rel="stylesheet" href="css/style.css" />
-
         <script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
     </head>
     <body>
@@ -36,7 +35,7 @@
         <div class="container">
 
             <div class="row">
-                <div class="span9">
+                <div id="pm-post" class="span9">
                     {{ content }}
                 </div>
                 <div class="span3">
