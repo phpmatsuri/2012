@@ -79,6 +79,10 @@ h2 > small {
     margin-bottom: 10px;
 }
 
+.sponsor-caption {
+    display: none;
+}
+
 div.faq {
     border: 2px solid #CCCCCC;
     border-radius: 15px;
