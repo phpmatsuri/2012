@@ -106,6 +106,33 @@ div.faq {
     margin-bottom: 5px;
 }
 
+footer {
+    margin-top: 50px;
+}
+.footer-content {
+    left:0;
+    right:0;
+    color: #636363;
+    background-color: #F8F8F8;
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+    height: 400px;
+    padding-top:10px;
+}
+
+.footer-content table {
+    margin-left: 20px;
+}
+.footer-title {
+    margin-top:20px;
+    margin-bottom:10px;
+    text-align:left;
+    font-size:medium;
+    font-weight:bold;
+}
+.staff-icon {
+
+}
 @media (min-width: 980px) {
     #pm-hero-unit .carousel-inner > .item {
         height: 400px;
