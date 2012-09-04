@@ -32,12 +32,15 @@ title: PHP Matsuri 2012
     <div class="span3">
         <div id="ticket-index">
             <h2>Tickets<small>チケット</small></h2>
-            <p>今年の開催場所は福岡！しかも福岡市内！</p>
-            <p>街の中心部から飲食街、宿泊施設まで徒歩圏内と言ってもいい近さが魅力です。</p>
-            <p>せっかくの機会なのでチケットに宿泊代金は含めないことにしました。</p>
-            <p>好みの宿泊施設を借りるもよし、徹夜覚悟で宿泊施設を予約しないもよし！</p>
+            <p>今年の開催場所は福岡！ 博多駅徒歩5分の場所です。</p>
+            <p>今年は<font color="red">チケットに宿泊代金を含めない</font>ことにしました。</p>
+            <p>好みの宿泊施設を借りるもよし、徹夜覚悟で宿泊施設を予約しないもよし！(会場は24時間使え、近くには24時間営業のサウナがあります)</p>
+            <p>連休の開催ですので、飛行機や宿の予約はお早めにどうぞ。</p>
             <!-- <p><a class="btn btn-warning" href="#">チケット購入はこちら &raquo;</a></p>-->
-            <p><a class="btn btn-warning disabled" href="#">チケット購入は<br />今しばらくお待ちください！</a></p>
+            <p><a class="btn btn-warning disabled" href="#">チケット購入は<br />今しばらくお待ちください！<br />
+               9/15(土)から販売開始予定です！</a>
+	    </p>
+            <p></p>
         </div>
     </div>
 </div>
@@ -48,17 +51,21 @@ title: PHP Matsuri 2012
         <h2>News/Blog<small>ニュース/ブログ</small></h2>
         <ul class="posts">
             {% for post in site.posts %}
-              <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="/phpmatsuri2012.github.com{{ post.url }}">{{ post.title }}</a></li>
+              <li><span>{{ post.date | date_to_string }}</span> <br />
+	          &raquo; <a href="/phpmatsuri2012.github.com{{ post.url }}">{{ post.title }}</a></li>
             {% endfor %}
         </ul>
     </div>
     <div class="span4">
-        <h2>Access<small>アクセス</small></h2>
-        <p><strong>2012年11月3日(土)、4日(日)</strong></p>
+        <h2>Information<small>イベント情報</small></h2>
+	<h3>日程</h3>
+        <p><strong>2012年11月3日(土) ～ 4日(日)</strong></p>
+        <p>会場は24時間使えますので、徹夜で開発できます！</p>
+	<h3>場所</h3>
         <p>
             <a href="http://frac.jp/">福岡県Ruby・コンテンツ産業振興センター</a>
         </p>
-        <iframe id="pm-map-index" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.jp/maps?q=33.590161,130.423534&amp;num=1&amp;hl=en&amp;brcurrent=3,0x3541904f79dbf931:0xf9c4c73e319d9e4a,0&amp;ie=UTF8&amp;ll=33.590193,130.423518&amp;spn=0.025775,0.055747&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+	<br />
         <p><a class="btn" href="access.html">詳しくはこちら &raquo;</a></p>
     </div>
     <div class="span4">
@@ -71,10 +78,13 @@ title: PHP Matsuri 2012
     </div>
 </div>
 
-<hr />
 
 <footer>
     <div class="row">
         {% include sponsor.html %}
     </div>
+    <div class="row">
+        {% include footer.html %}
+    </div>
+
 </footer>
