@@ -121,6 +121,7 @@ h2 {
 }
 
 .sponsor-logo.silver {
+    width: 160px;
     height: 111px;
     line-height: 111px;
 }
@@ -137,7 +138,6 @@ h2 {
     font-size: 1.5em;
     margin-bottom: 8px;
 }
-
 .caption.silver{
     font-size: 0.9em;
 }
