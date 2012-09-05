@@ -1,6 +1,6 @@
 $(function(){
     $('.carousel').carousel({
-        interval: 8000
+        interval: 20000
     });
 
     // sponsor.html変換
