@@ -8,6 +8,8 @@ $(function(){
         // タイトル削除
         $('#sponsor-title').hide();
 
+        $('.sponsor-title').show();
+
         $('.sponsor.span3').removeClass('span3').addClass('span12');
 
         $('.sponsor.span2').removeClass('span2').addClass('span4');
