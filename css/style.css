@@ -81,6 +81,12 @@ h2 {
     height: 350px;
 }
 
+#social-index {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
 #pm-map-index {
     width: 100%;
 }
