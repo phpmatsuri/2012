@@ -114,6 +114,11 @@ h2 {
     line-height: 180px;
 }
 
+.sponsor-logo.silver {
+    height: 111px;
+    line-height: 111px;
+}
+
 .sponsor-logo img{
     vertical-align: middle;
 }
@@ -125,6 +130,10 @@ h2 {
 .caption > h3{
     font-size: 1.5em;
     margin-bottom: 8px;
+}
+
+.caption.silver{
+    font-size: 0.9em;
 }
 
 div.faq {
