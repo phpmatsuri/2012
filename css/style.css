@@ -147,6 +147,10 @@ h2 {
     display: none;
 }
 
+.sponsor-caption .personal {
+    font-weight: bold;
+}
+
 .caption > h3{
     font-size: 1.5em;
     margin-bottom: 8px;
