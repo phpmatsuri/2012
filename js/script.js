@@ -16,6 +16,7 @@ $(function(){
         // silver
         $('.sponsor.span2').removeClass('span2').addClass('span4');
 
+        // personal
         $('.sponsor.span1').removeClass('span1').addClass('span2');
 
 
@@ -33,7 +34,7 @@ $(function(){
         $('.sponsor-caption.personal').css({display:'inline'});
         $('.sponsor.span2 .sponsor-caption').removeClass('sponsor-caption');
     } else if (location.href.match(/.html/) && !location.href.match(/index.html/)) {
-        // top,sponser以外
+        // top, sponser以外
         $('.sponsor').css({marginLeft: '0px'});
         $('.sponsor-header').removeClass('span12');
         $('.sponsor-title').removeClass('span12');

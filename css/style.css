@@ -122,6 +122,10 @@ h2 {
     color: gray;
  }
 
+.sponsor-title.personal {
+    margin-bottom: 20px;
+ }
+
 .sponsor-logo.platinum {
     height: 180px;
     line-height: 180px;
@@ -139,6 +143,10 @@ h2 {
     text-align:center;
 }
 
+.sponsor-logo.personal {
+    text-align:center;
+}
+
 .sponsor-logo img{
     vertical-align: middle;
 }
@@ -147,7 +155,7 @@ h2 {
     display: none;
 }
 
-.sponsor-caption .personal {
+.caption.personal {
     font-weight: bold;
 }
 
