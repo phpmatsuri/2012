@@ -78,7 +78,6 @@ h2 {
     border: 8px solid #858BBA;
     border-radius: 15px;
     padding: 15px;
-    height: 350px;
 }
 
 #social-index {
@@ -111,6 +110,10 @@ h2 {
 .sponsor {
     background-color: white;
     margin-bottom: 10px;
+}
+
+.sponsor-header {
+    margin-top: 10px;
 }
 
 .sponsor-title {
@@ -201,7 +204,7 @@ footer {
         height: 400px;
     }
     #ticket-index {
-        height: 350px;
+        height: 320px;
     }
     #pm-map-index {
         height: 300px;

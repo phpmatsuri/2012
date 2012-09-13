@@ -21,6 +21,15 @@ $(function(){
 
         $('.sponsor.span4 .thumbnail').removeClass('thumbnail').css({marginBottom: '40px'});
         $('.sponsor.span4 .sponsor-caption').removeClass('sponsor-caption');
+    } else if (location.href.match(/.html/) && !location.href.match(/index.html/)) {
+        // top,sponser以外
+        $('.sponsor').css({marginLeft: '0px'});
+        $('.sponsor-header').removeClass('span12');
+        $('.sponsor-title').removeClass('span12');
+    } else {
+        // top
+        $('.sponsor-header').removeClass('span12');
+        $('.sponsor-title').removeClass('span12');
     }
 });
 
