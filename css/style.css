@@ -212,7 +212,7 @@ footer {
     border-radius: 6px;
     margin-bottom: 4px;
 }
-@media (min-width: 980px) {
+@media (min-width: 980px) and (max-width: 1200px) {
     #pm-hero-unit .carousel-inner > .item {
         height: 400px;
     }
@@ -224,6 +224,12 @@ footer {
     }
     #pm-map-access {
         height: 400px;
+    }
+    .sponsor-logo.silver {
+        width: 130px;
+        height: 111px;
+        line-height: 111px;
+        text-align:center;
     }
 }
 
@@ -239,6 +245,12 @@ footer {
     }
     #pm-map-access {
         height: 300px;
+    }
+    .sponsor-logo.silver {
+        width: 95px;
+        height: 111px;
+        line-height: 111px;
+        text-align:center;
     }
 }
 
