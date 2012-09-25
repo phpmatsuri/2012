@@ -149,6 +149,7 @@ h2 {
 
 .sponsor-logo img{
     vertical-align: middle;
+    max-height: 100%;
 }
 
 .sponsor-caption {

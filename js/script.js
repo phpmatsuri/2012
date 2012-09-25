@@ -46,6 +46,8 @@ $(function(){
         // top
         $('.sponsor-header').removeClass('span12');
         $('.sponsor-title').removeClass('span12');
+
+        $('#silver').css({clear:'both'});
     }
 });
 
