@@ -47,6 +47,8 @@ $(function(){
         $('.sponsor-header').removeClass('span12');
         $('.sponsor-title').removeClass('span12');
 
+        $('#support').css({clear:'both'});
+
         $('#silver').css({clear:'both'});
     }
 });
