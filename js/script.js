@@ -50,6 +50,7 @@ $(function(){
         $('#support').css({clear:'both'});
 
         $('#silver').css({clear:'both'});
+        $('#media').css({clear:'both'});
     }
 });
 
